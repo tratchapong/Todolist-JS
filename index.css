@@ -1,0 +1,30 @@
+.flex-all {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    max-width: 70%;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.flex-all > div {
+    background-color: #f1f1f1;
+    width: 45vw;
+    height: auto;
+    margin: 5px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+.flex-all > div > div {
+    font-size: 16px;
+    border: 1px solid lightblue;
+  }
+
+.flex-all > div > div > div {
+    float: left;
+    background-color: lightyellow;
+    width: 32vw;
+  }
